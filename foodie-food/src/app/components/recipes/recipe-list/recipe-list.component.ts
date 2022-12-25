@@ -9,6 +9,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent {
 
   recipes:Recipe[] = [
-    new Recipe('Test Recipe','Simple Test','https://vismaifood.com/storage/app/uploads/public/7b2/49e/d12/thumb__1200_0_0_0_auto.jpg')
+    new Recipe('Test Recipe','Simple Test','https://vismaifood.com/storage/app/uploads/public/7b2/49e/d12/thumb__1200_0_0_0_auto.jpg'),
+    new Recipe('Test Recipe','Simple Test','https://vismaifood.com/storage/app/uploads/public/7b2/49e/d12/thumb__1200_0_0_0_auto.jpg'),
+    new Recipe('Test Recipe','Simple Test','https://vismaifood.com/storage/app/uploads/public/7b2/49e/d12/thumb__1200_0_0_0_auto.jpg'),
   ]
 }
