@@ -8,8 +8,14 @@ import { Ingrediant } from '../shared/ingrediant.model';
 })
 export class ShoppingListComponent {
 
+
   ingrediants:Ingrediant[]=[
     new Ingrediant('Apples',5),
     new Ingrediant('Orange',5),
   ];
+
+  onIngrediantAdded(newIngrediant:Ingrediant){
+    // console.log('Added Ingrediant',newIngrediant);
+    this.ingrediants.push(newIngrediant);
+  }
 }
